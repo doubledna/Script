@@ -1,0 +1,12 @@
+cmd下部分单词解释：start：要查询的域名范围的开始; 
+                   end：要查询的域名范围的结束; 
+                   machineroom:输入要查询的机房，如 edb08
+                   Dm： 域名后缀：如 com.cn
+
+
+
+
+操作：解压文件--打开dist文件夹--点击getIp.exe--进入cmd窗口--输入域名范围开始查询；
+      查询结果在dist目录下的iplist.txt中
+
+
