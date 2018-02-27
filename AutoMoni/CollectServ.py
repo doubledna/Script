@@ -67,7 +67,7 @@ def process():
                 else:
                     P['status'] = "stopping"
             else:
-                progress1 = 'systemctl status ' + System + '.service'
+                progress1 = 'systemctl status ' + ProgressName + '.service'
                 state = str(os.popen(progress1).read())
                 if re.search(r'running', state, re.M) is not None:
                     P['status'] = re.search(r'running', state, re.M).group()

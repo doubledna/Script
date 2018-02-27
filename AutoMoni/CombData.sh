@@ -1,2 +1,2 @@
 #!/bin/bash
-python CombData.py > /dev/null 2>&1
+python CombData.py & > /dev/null 2>&1
