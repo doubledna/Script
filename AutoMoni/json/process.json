@@ -1,1 +1,0 @@
-[{"status": ["running", "running", "running"], "process": ["nginx", "httpd", "mysqld"], "hostname": "192.168.229.129"}, {"status": ["running", "running", "running"], "process": ["nginx", "httpd", "mysqld"], "hostname": "192.168.229.128"}]

@@ -6,16 +6,16 @@
 
 #create log
 TODAY=$(date "+%Y-%m-%d")
-log_file=/home/dsa/task/log/log."$TODAY"
+log_file=/home/xxx/task/log/log."$TODAY"
 #errlog=/root/task/log/errlog."$TODAY"
 exec 1>> $log_file
 exec 2>> $log_file
 
 result=$(df -Ph | grep /dev/sda5  | awk '{print $5}' | awk -F "%" '{if($1>=96){print $1}}')
-mon=$(ls -lc /home/dsa/task/data | head -n 2 | tail -n 1 | awk '{print $9}')
-data=$(ls -lc /home/dsa/task/data/* | head -n 3 | tail -n 1 | awk '{print $9}')
-dict=/home/dsa/task/data/$mon/$data
-dict2=/home/dsa/task/data/
+mon=$(ls -lc /home/xxx/task/data | head -n 2 | tail -n 1 | awk '{print $9}')
+data=$(ls -lc /home/xxx/task/data/* | head -n 3 | tail -n 1 | awk '{print $9}')
+dict=/home/xxx/task/data/$mon/$data
+dict2=/home/xxx/task/data/
 
 if [ "$mon" != "" ]
 then

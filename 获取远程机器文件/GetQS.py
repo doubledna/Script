@@ -4,11 +4,11 @@ import os
 import time
 import linecache
 
-os.system('/home/d5000/jibei/var/QS/GetQS.sh > /home/d5000/jibei/var/QS/file.txt')
-p = os.popen('grep "国调_*" /home/d5000/jibei/var/QS/file.txt')
+os.system('/home/xxx/xxx//xxx/xxx.sh > /home/xxx/xxx/xxx/xx/file.txt')
+p = os.popen('grep "国调_*" /home/xxx/xxx/xxx/xxx/file.txt')
 file = p.readline().strip()
 os.environ['file'] = str(file)
-os.system('scp jbs1-ewapp02:/home/comm/data/gd_sefiles/$file /home/d5000/jibei/var/QS;tar -zcf /home/d5000/jibei/var/QS/$file.tgz -C /home/d5000/jibei/var/QS/ $file')
+os.system('scp xxx:/home/comm/data/xxx/$file /home/xxx/xxx/xxx/xxx;tar -zcf /home/d5000/xxx/xxx/xxx/$file.tgz -C /home/xxx/xxx/xxx/xxx/ $file')
 p.close()
 
 
