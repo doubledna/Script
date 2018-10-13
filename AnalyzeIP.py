@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding=utf-8
-#
+# func: 测试端口脚本
 import dpkt
 import socket
 import pygeoip

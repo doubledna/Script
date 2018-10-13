@@ -1,4 +1,5 @@
 # coding:utf-8
+# func: 用于端口扫描
 # usage: python scanport.py -H host -P port1,port2,port3
 import optparse
 import socket

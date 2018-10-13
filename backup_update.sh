@@ -1,6 +1,6 @@
 #!/bin/bash
 # coding=utf8
-#func:
+#func: 定时备份和上传文件脚本
 HOST='192.168.1.2'
 USER='aaa'
 PASSWD='bbb'
