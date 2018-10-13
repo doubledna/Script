@@ -2,7 +2,6 @@
 # 收集windows电脑WiFi信息脚本
 from _winreg import *
 
-
 # 将十六进制值转换成实际的MAC地址
 def va12addr(val):
     addr = ''

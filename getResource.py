@@ -1,7 +1,7 @@
 # coding:utf-8
 # 收集windows系统回收站删除信息
+
 import os
-# import optparse
 from _winreg import *
 
 
